@@ -1,62 +1,595 @@
-     xadd csv_col_sort * aaa bbb
-     xgroup create csv_col_sort cg_csv_col_sort $
-
-     xadd csv_title_edit * aaa bbb
-     xgroup create csv_title_edit cg_csv_title_edit $
-
-     xadd csv_col_edit * aaa bbb
-     xgroup create csv_col_edit cg_csv_col_edit $
-
-     xadd csv_separator * aaa bbb
-     xgroup create csv_separator cg_csv_separator $
-
-     xadd competition_test_now * aaa bbb
-     xgroup create competition_test_now cg_competition_test_now $
-
-     xadd competition_test_times * aaa bbb
-     xgroup create competition_test_times cg_competition_test_times $
-
-     xadd competition_score * aaa bbb
-     xgroup create competition_score cg_competition_score $
-
-     xadd zip_content * aaa bbb
-     xgroup create zip_content cg_zip_content $
-
-     xadd file_copy * aaa bbb
-     xgroup create file_copy cg_file_copy $
-
-     xadd csv_content * aaa bbb
-     xgroup create csv_content cg_csv_content $
-
-     xadd csv_page_content * aaa bbb
-     xgroup create csv_page_content cg_csv_page_content $
-
-     xadd csv_remove * aaa bbb
-     xgroup create csv_remove cg_csv_remove $
-
-     xadd csv_add * aaa bbb
-     xgroup create csv_add cg_csv_add $
-
-     xadd csv_edit * aaa bbb
-     xgroup create csv_edit cg_csv_edit $
-
-     xadd csv_clean * aaa bbb
-     xgroup create csv_clean cg_csv_clean $
-
-     xadd csv_diff * aaa bbb
-     xgroup create csv_diff cg_csv_diff $
-
-     xadd csv_split * aaa bbb
-     xgroup create csv_split cg_csv_split $
-
-     xadd csv_merge * aaa bbb
-     xgroup create csv_merge cg_csv_merge $
-
-     xadd csv_col_convert * aaa bbb
-     xgroup create csv_col_convert cg_csv_col_convert $
-
-     xadd csv_normalization * aaa bbb
-     xgroup create csv_normalization cg_csv_normalization $
-
-     xadd zip_split * aaa bbb
-     xgroup create zip_split cg_zip_split $
+<tr style="height:8.5pt">
+      <td style="width: auto; border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-left: 1px solid windowtext; border-image: initial; border-top: none; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">PERSON_MOBILE_CODE</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">移动联系号码</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">VARCHAR2(2000)</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">是</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;"></td>
+      <td valign="top" style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">&nbsp;</span></p>
+      </td>
+    </tr>
+    <tr style="height:8.5pt">
+      <td style="width: auto; border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-left: 1px solid windowtext; border-image: initial; border-top: none; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">PERSON_NAME_INDEX</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">人员的英文名</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">VARCHAR2(100)</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">是</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;"></td>
+      <td valign="top" style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">&nbsp;</span></p>
+      </td>
+    </tr>
+    <tr style="height:8.5pt">
+      <td style="width: auto; border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-left: 1px solid windowtext; border-image: initial; border-top: none; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">PERSON_NOTES_CN</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">Notes ID </span><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">的</span><span style="font-size:9.0pt;color:black">CN</span><span style="font-size:9.0pt;
+      font-family:'微软雅黑',sans-serif;color:black">名</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">VARCHAR2(150)</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">是</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;"></td>
+      <td valign="top" style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">&nbsp;</span></p>
+      </td>
+    </tr>
+    <tr style="height:8.5pt">
+      <td style="width: auto; border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-left: 1px solid windowtext; border-image: initial; border-top: none; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">PERSON_NOTES_ENG_NAME</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">notes</span><span style="font-size:9.0pt;
+      font-family:'微软雅黑',sans-serif;color:black">英文名</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">VARCHAR2(150)</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">是</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;"></td>
+      <td valign="top" style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">&nbsp;</span></p>
+      </td>
+    </tr>
+    <tr style="height:8.5pt">
+      <td style="width: auto; border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-left: 1px solid windowtext; border-image: initial; border-top: none; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">PERSON_NOTESID</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">Notes ID</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">VARCHAR2(200)</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">是</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;"></td>
+      <td valign="top" style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">&nbsp;</span></p>
+      </td>
+    </tr>
+    <tr style="height:8.5pt">
+      <td style="width: auto; border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-left: 1px solid windowtext; border-image: initial; border-top: none; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">PERSON_OTHER</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">其他</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">VARCHAR2(2000)</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">是</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;"></td>
+      <td valign="top" style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">&nbsp;</span></p>
+      </td>
+    </tr>
+    <tr style="height:8.5pt">
+      <td style="width: auto; border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-left: 1px solid windowtext; border-image: initial; border-top: none; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">PERSON_PHONE_CODE</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">人员电话号码</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">VARCHAR2(2000)</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">是</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;"></td>
+      <td valign="top" style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">&nbsp;</span></p>
+      </td>
+    </tr>
+    <tr style="height:8.5pt">
+      <td style="width: auto; border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-left: 1px solid windowtext; border-image: initial; border-top: none; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">PERSON_ROOM</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">所在房间</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">VARCHAR2(2000)</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">是</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;"></td>
+      <td valign="top" style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">&nbsp;</span></p>
+      </td>
+    </tr>
+    <tr style="height:8.5pt">
+      <td style="width: auto; border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-left: 1px solid windowtext; border-image: initial; border-top: none; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">PERSON_TRAVEL_CODE</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">在外联系号码</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">VARCHAR2(2000)</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">是</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;"></td>
+      <td valign="top" style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">&nbsp;</span></p>
+      </td>
+    </tr>
+    <tr style="height:8.5pt">
+      <td style="width: auto; border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-left: 1px solid windowtext; border-image: initial; border-top: none; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">PERSON_VIOP</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">VIOP</span><span style="font-size:9.0pt;
+      font-family:'微软雅黑',sans-serif;color:black">号</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">VARCHAR2(2000)</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">是</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;"></td>
+      <td valign="top" style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">&nbsp;</span></p>
+      </td>
+    </tr>
+    <tr style="height:8.5pt">
+      <td style="width: auto; border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-left: 1px solid windowtext; border-image: initial; border-top: none; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">PERSON_ZIP_CODE</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">邮编</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">VARCHAR2(2000)</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">是</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;"></td>
+      <td valign="top" style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">&nbsp;</span></p>
+      </td>
+    </tr>
+    <tr style="height:8.5pt">
+      <td style="width: auto; border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-left: 1px solid windowtext; border-image: initial; border-top: none; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">PUBLIC_FLAG</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">源头反向删除时间戳</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">VARCHAR2(1)</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">是</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;"></td>
+      <td valign="top" style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">&nbsp;</span></p>
+      </td>
+    </tr>
+    <tr style="height:8.5pt">
+      <td style="width: auto; border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-left: 1px solid windowtext; border-image: initial; border-top: none; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">RECRUITMENT_TYPE</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;"></td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">VARCHAR2(150)</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">是</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;"></td>
+      <td valign="top" style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">&nbsp;</span></p>
+      </td>
+    </tr>
+    <tr style="height:8.5pt">
+      <td style="width: auto; border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-left: 1px solid windowtext; border-image: initial; border-top: none; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">REGION_CODE</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">COA</span><span style="font-size:9.0pt;
+      font-family:'微软雅黑',sans-serif;color:black">区域编码</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">VARCHAR2(30)</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">是</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;"></td>
+      <td valign="top" style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">&nbsp;</span></p>
+      </td>
+    </tr>
+    <tr style="height:8.5pt">
+      <td style="width: auto; border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-left: 1px solid windowtext; border-image: initial; border-top: none; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">RESIDENT_LOCATION</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;"></td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">VARCHAR2(240)</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">是</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;"></td>
+      <td valign="top" style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">&nbsp;</span></p>
+      </td>
+    </tr>
+    <tr style="height:8.5pt">
+      <td style="width: auto; border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-left: 1px solid windowtext; border-image: initial; border-top: none; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">SEX</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">性别</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">VARCHAR2(30)</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">是</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;"></td>
+      <td valign="top" style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">&nbsp;</span></p>
+      </td>
+    </tr>
+    <tr style="height:8.5pt">
+      <td style="width: auto; border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-left: 1px solid windowtext; border-image: initial; border-top: none; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">SHORT_NAME</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">登录短名</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">VARCHAR2(30)</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">是</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;"></td>
+      <td valign="top" style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">&nbsp;</span></p>
+      </td>
+    </tr>
+    <tr style="height:8.5pt">
+      <td style="width: auto; border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-left: 1px solid windowtext; border-image: initial; border-top: none; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">START_DATE</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">入职日期</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">DATE(7)</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">是</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;"></td>
+      <td valign="top" style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">&nbsp;</span></p>
+      </td>
+    </tr>
+    <tr style="height:8.5pt">
+      <td style="width: auto; border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-left: 1px solid windowtext; border-image: initial; border-top: none; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">SYSTEM_DEPT_TYPE</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">部门有效性</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">VARCHAR2(30)</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">是</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;"></td>
+      <td valign="top" style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">&nbsp;</span></p>
+      </td>
+    </tr>
+    <tr style="height:8.5pt">
+      <td style="width: auto; border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-left: 1px solid windowtext; border-image: initial; border-top: none; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">SYSTEM_PERSON_TYPE</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">人员状态（</span><span style="font-size:9.0pt;color:black">HRMS</span><span style="font-size:9.0pt;font-family:'微软雅黑',sans-serif;color:black">未添加外协工号之前的人员状态分类：</span><span style="font-size:9.0pt;color:black"><br>
+      </span><span style="font-size:9.0pt;font-family:'微软雅黑',sans-serif;color:black">包括</span><span style="font-size:9.0pt;color:black">EMP:</span><span style="font-size:9.0pt;font-family:'微软雅黑',sans-serif;color:black">在职华为员工；</span><span style="font-size:9.0pt;color:black"><br>
+      &nbsp;EX_EMP:</span><span style="font-size:9.0pt;font-family:'微软雅黑',sans-serif;
+      color:black">不在职华为员工；</span><span style="font-size:9.0pt;
+      color:black"> <br>
+      OTH:</span><span style="font-size:9.0pt;font-family:'微软雅黑',sans-serif;
+      color:black">含在</span><span style="font-size:9.0pt;color:black">Notes</span><span style="font-size:9.0pt;font-family:'微软雅黑',sans-serif;color:black">、</span><span style="font-size:9.0pt;color:black">AD</span><span style="font-size:9.0pt;font-family:'微软雅黑',sans-serif;color:black">、</span><span style="font-size:9.0pt;color:black">W3 LDAP</span><span style="font-size:9.0pt;font-family:'微软雅黑',sans-serif;color:black">注册的如</span><span style="font-size:9.0pt;color:black">WX</span><span style="font-size:9.0pt;font-family:'微软雅黑',sans-serif;color:black">、</span><span style="font-size:9.0pt;color:black">KF</span><span style="font-size:9.0pt;font-family:'微软雅黑',sans-serif;color:black">、</span><span style="font-size:9.0pt;color:black">GW</span><span style="font-size:9.0pt;font-family:'微软雅黑',sans-serif;color:black">等开头的所有外协</span><span style="font-size:9.0pt;color:black"> </span><span style="font-size:9.0pt;
+      font-family:'微软雅黑',sans-serif;color:black">还包含在</span><span style="font-size:9.0pt;color:black">HRMS</span><span style="font-size:9.0pt;
+      font-family:'微软雅黑',sans-serif;color:black">注册的数字工号的非华为正式员工，即</span><span style="font-size:9.0pt;color:black"> SYSTEM_PERSON_TYPE2</span><span style="font-size:9.0pt;font-family:'微软雅黑',sans-serif;color:black">不为</span><span style="font-size:9.0pt;color:black">Employee</span><span style="font-size:9.0pt;font-family:'微软雅黑',sans-serif;color:black">：在职员工，</span><span style="font-size:9.0pt;color:black">Ex-employee</span><span style="font-size:9.0pt;font-family:'微软雅黑',sans-serif;color:black">：离职员工两种状态的。</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">VARCHAR2(30)</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">是</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;"></td>
+      <td valign="top" style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">&nbsp;</span></p>
+      </td>
+    </tr>
+    <tr style="height:8.5pt">
+      <td style="width: auto; border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-left: 1px solid windowtext; border-image: initial; border-top: none; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">SYSTEM_PERSON_TYPE2</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">人员状态（</span><span style="font-size:9.0pt;color:black">HRMS</span><span style="font-size:9.0pt;font-family:'微软雅黑',sans-serif;color:black">添加外协工号之后的人员状态分类：</span><span style="font-size:9.0pt;color:black"><br>
+      </span><span style="font-size:9.0pt;font-family:'微软雅黑',sans-serif;color:black">包括</span><span style="font-size:9.0pt;color:black">Employee:</span><span style="font-size:9.0pt;font-family:'微软雅黑',sans-serif;color:black">在职华为员工；</span><span style="font-size:9.0pt;color:black"><br>
+      Ex-employee:</span><span style="font-size:9.0pt;font-family:'微软雅黑',sans-serif;
+      color:black">不在职华为员工；</span><span style="font-size:9.0pt;
+      color:black"><br>
+      Leased Workforce:</span><span style="font-size:9.0pt;font-family:'微软雅黑',sans-serif;
+      color:black">在</span><span style="font-size:9.0pt;color:black">HRMS</span><span style="font-size:9.0pt;font-family:'微软雅黑',sans-serif;color:black">注册的工号为数字的在职外协员工；</span><span style="font-size:9.0pt;color:black"><br>
+      Ex-leased workforce</span><span style="font-size:9.0pt;font-family:'微软雅黑',sans-serif;
+      color:black">：在</span><span style="font-size:9.0pt;color:black">HRMS</span><span style="font-size:9.0pt;font-family:'微软雅黑',sans-serif;color:black">注册的工号为数字的离职外协员工；</span><span style="font-size:9.0pt;color:black"><br>
+      OTH-OLD</span><span style="font-size:9.0pt;font-family:'微软雅黑',sans-serif;
+      color:black">：在</span><span style="font-size:9.0pt;color:black">Notes</span><span style="font-size:9.0pt;font-family:'微软雅黑',sans-serif;color:black">注册的如</span><span style="font-size:9.0pt;color:black">WX</span><span style="font-size:9.0pt;font-family:'微软雅黑',sans-serif;color:black">、</span><span style="font-size:9.0pt;color:black">KF</span><span style="font-size:9.0pt;font-family:'微软雅黑',sans-serif;color:black">开头的所有外协）</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">VARCHAR2(30)</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">是</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;"></td>
+      <td valign="top" style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">&nbsp;</span></p>
+      </td>
+    </tr>
+    <tr style="height:8.5pt">
+      <td style="width: auto; border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-left: 1px solid windowtext; border-image: initial; border-top: none; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">TELEPHONE_LASTUPDATEDATE</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">源表更新时间戳</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">DATE(7)</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">是</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;"></td>
+      <td valign="top" style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">&nbsp;</span></p>
+      </td>
+    </tr>
+    <tr style="height:8.5pt">
+      <td style="width: auto; border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-left: 1px solid windowtext; border-image: initial; border-top: none; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">TIMESTAMP_FOR_SSO</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">SSO </span><span style="font-size:9.0pt;
+      font-family:'微软雅黑',sans-serif;color:black">专用时间戳</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">DATE(7)</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">是</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;"></td>
+      <td valign="top" style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">&nbsp;</span></p>
+      </td>
+    </tr>
+    <tr style="height:8.5pt">
+      <td style="width: auto; border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-left: 1px solid windowtext; border-image: initial; border-top: none; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">UPPER_DEPT_CODE</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">上级部门编码</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">VARCHAR2(240)</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">是</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;"></td>
+      <td valign="top" style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">&nbsp;</span></p>
+      </td>
+    </tr>
+    <tr style="height:8.5pt">
+      <td style="width: auto; border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-left: 1px solid windowtext; border-image: initial; border-top: none; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">UPPER_NAME</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">上级部门名称</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">VARCHAR2(240)</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">是</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;"></td>
+      <td valign="top" style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">&nbsp;</span></p>
+      </td>
+    </tr>
+    <tr style="height:8.5pt">
+      <td style="width: auto; border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-left: 1px solid windowtext; border-image: initial; border-top: none; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">UPPER_ORGANIZATION_ID</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">上级部门</span><span style="font-size:9.0pt;color:black">Oracle ID</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">NUMBER(22)</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">是</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;"></td>
+      <td valign="top" style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">&nbsp;</span></p>
+      </td>
+    </tr>
+    <tr style="height:8.5pt">
+      <td style="width: auto; border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-left: 1px solid windowtext; border-image: initial; border-top: none; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">W3ACCOUNT</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">W3</span><span style="font-size:9.0pt;
+      font-family:'微软雅黑',sans-serif;color:black">账号</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">VARCHAR2(150)</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">是</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;"></td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">&nbsp;</span></p>
+      </td>
+    </tr>
+    <tr style="height:8.5pt">
+      <td style="width: auto; border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-left: 1px solid windowtext; border-image: initial; border-top: none; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">W3UCN</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">W3</span><span style="font-size:9.0pt;
+      font-family:'微软雅黑',sans-serif;color:black">用户</span><span style="font-size:9.0pt;color:black">CN</span><span style="font-size:9.0pt;
+      font-family:'微软雅黑',sans-serif;color:black">名</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">VARCHAR2(1000)</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">是</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;"></td>
+      <td nowrap="" valign="top" style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;"></td>
+    </tr>
+    <tr style="height:8.5pt">
+      <td style="width: auto; border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-left: 1px solid windowtext; border-image: initial; border-top: none; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;font-family:'微软雅黑',sans-serif;color:black">EMPLOYED_FLAG</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">人员是否在职，</span><span style="font-size:9.0pt;color:black">1</span><span style="font-size:9.0pt;font-family:'微软雅黑',sans-serif;color:black">表示在职；</span><span style="font-size:9.0pt;color:black">0</span><span style="font-size:9.0pt;font-family:'微软雅黑',sans-serif;color:black">表示离职（</span><span style="font-size:9.0pt;color:black">2019.5.11</span><span style="font-size:9.0pt;font-family:'微软雅黑',sans-serif;color:black">上线）</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">VARCHAR2(30)</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:
+      9.0pt;font-family:'微软雅黑',sans-serif;color:black">是</span></p>
+      </td>
+      <td style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">&nbsp;</span></p>
+      </td>
+      <td nowrap="" valign="top" style="width: auto; border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0cm 5.4pt; height: 8.5pt;">
+      <p style="margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:'Times New Roman',serif;text-align:left" align="left"><span style="font-size:9.0pt;color:black">&nbsp;</span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>

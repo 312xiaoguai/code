@@ -1,0 +1,62 @@
+     xadd csv_col_sort * aaa bbb
+     xgroup create csv_col_sort cg_csv_col_sort $
+
+     xadd csv_title_edit * aaa bbb
+     xgroup create csv_title_edit cg_csv_title_edit $
+
+     xadd csv_col_edit * aaa bbb
+     xgroup create csv_col_edit cg_csv_col_edit $
+
+     xadd csv_separator * aaa bbb
+     xgroup create csv_separator cg_csv_separator $
+
+     xadd competition_test_now * aaa bbb
+     xgroup create competition_test_now cg_competition_test_now $
+
+     xadd competition_test_times * aaa bbb
+     xgroup create competition_test_times cg_competition_test_times $
+
+     xadd competition_score * aaa bbb
+     xgroup create competition_score cg_competition_score $
+
+     xadd zip_content * aaa bbb
+     xgroup create zip_content cg_zip_content $
+
+     xadd file_copy * aaa bbb
+     xgroup create file_copy cg_file_copy $
+
+     xadd csv_content * aaa bbb
+     xgroup create csv_content cg_csv_content $
+
+     xadd csv_page_content * aaa bbb
+     xgroup create csv_page_content cg_csv_page_content $
+
+     xadd csv_remove * aaa bbb
+     xgroup create csv_remove cg_csv_remove $
+
+     xadd csv_add * aaa bbb
+     xgroup create csv_add cg_csv_add $
+
+     xadd csv_edit * aaa bbb
+     xgroup create csv_edit cg_csv_edit $
+
+     xadd csv_clean * aaa bbb
+     xgroup create csv_clean cg_csv_clean $
+
+     xadd csv_diff * aaa bbb
+     xgroup create csv_diff cg_csv_diff $
+
+     xadd csv_split * aaa bbb
+     xgroup create csv_split cg_csv_split $
+
+     xadd csv_merge * aaa bbb
+     xgroup create csv_merge cg_csv_merge $
+
+     xadd csv_col_convert * aaa bbb
+     xgroup create csv_col_convert cg_csv_col_convert $
+
+     xadd csv_normalization * aaa bbb
+     xgroup create csv_normalization cg_csv_normalization $
+
+     xadd zip_split * aaa bbb
+     xgroup create zip_split cg_zip_split $
